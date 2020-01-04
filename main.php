@@ -17,7 +17,7 @@ https://www.linux.org.ru/forum/general/6405555
 */
 
  
- $fp = fopen("/dev/ttyUSB0","wb"); //Открываем порт для приёма команд
+ $fp = fopen("/dеv/ttyUSB0","wb"); //Открываем порт для приёма команд
  sleep(1);
  fwrite($fp,"ATA\r\n"); //Снимаем трубку
  sleep(1);
