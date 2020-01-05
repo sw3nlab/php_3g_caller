@@ -38,10 +38,10 @@ https://www.linux.org.ru/forum/general/6405555
                      usleep(20000);
 
                     }
- fclose($fz);
+ fclose($fz); 
  fclose($fs);
   
- fwrite($fp,"AT+CHUP;\r\n");
+ fwrite($fp,"AT+CHUP;\r\n"); //кладём трубку
  fclose($fp);
  echo "All Ports closed\r\n";
  exit();
