@@ -9,6 +9,8 @@ https://www.linux.org.ru/forum/general/6405555
 
 Скрипт автоматически снимает трубку и воспроизводит файл 
         [sound.wav] < ----- звук PCM 8000Гц 16bit Mono 
+        Онлайн конвертер .mp3 to .wav
+        https://g711.org/
         
 Проверено на модеме Huawei E171
         /dev/ttyUSB0 <-- порт приёма команд
