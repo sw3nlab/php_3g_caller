@@ -8,7 +8,7 @@
 ![image](https://github.com/sw3nlab/php_3g_caller/blob/master/unnamed.jpg)
 
 ## ПредНастройка 
-проверка портов usb 3G модема конфигурирование
+проверка портов usb 3G модема и конфигурирование
 ```php
 sw3nlab@nettop:~$ lsusb
 
