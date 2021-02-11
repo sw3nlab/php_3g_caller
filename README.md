@@ -5,6 +5,8 @@
 <br/>
 Пример взаимодействия с 3g модемом Huawei E171 на PHP и bash
 
+![image](https://github.com/sw3nlab/php_3g_caller/blob/master/unnamed.jpg)
+
 ## ПредНастройка 
 проверка портов usb 3G модема конфигурирование
 ```php
