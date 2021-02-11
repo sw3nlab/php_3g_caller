@@ -27,7 +27,7 @@ Bus 007 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 Bus 006 Device 003: ID 12d1:1506 Huawei Technologies Co., Ltd. Modem/Networkcard <== !
 Bus 006 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 
-//Если модем определяется как накопитель необходимо установить пакет usb-modeswitch
+//Если модем определяется как Mass Storage накопитель необходимо установить пакет usb-modeswitch
 sw3nlab@nettop:~$ sudo apt install usb-modeswitch usb-modeswitch-data
 
 sw3nlab@nettop:~$ sudo ls /dev/ttyUSB*
