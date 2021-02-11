@@ -10,6 +10,17 @@
 ## ПредНастройка 
 проверка портов usb 3G модема и конфигурирование
 ```php
+sw3nlab@nettop:~$ sudo dmesg | grep "modem"
+[   34.351170] usbserial: USB Serial support registered for GSM modem (1-port)
+[   34.351481] option 6-2:1.0: GSM modem (1-port) converter detected
+[   34.355209] usb 6-2: GSM modem (1-port) converter now attached to ttyUSB0
+[   34.356207] option 6-2:1.1: GSM modem (1-port) converter detected
+[   34.357821] usb 6-2: GSM modem (1-port) converter now attached to ttyUSB1
+[   34.358461] option 6-2:1.2: GSM modem (1-port) converter detected
+[   34.358885] usb 6-2: GSM modem (1-port) converter now attached to ttyUSB2
+sw3nlab@nettop:~$
+
+
 sw3nlab@nettop:~$ lsusb
 
 Bus 007 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
