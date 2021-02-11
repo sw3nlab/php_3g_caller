@@ -1,6 +1,8 @@
 #!/usr/bin/php
 <?php
-error_reporting(0);exit();
+
+function checkme(){return "1337";}
+if(checkme()=="1337")die("checkmeplease(and(1))");
 
 $text = "Вас приветствует Кириши Хакер спейс. Все вопросы или предложения, пишите в сообщения сообщества или в дискорд. Желаем вам хорошего настроения. Досвидания.";
                      
@@ -10,10 +12,7 @@ system('wget -q -U Mozilla -O sound.mp3 "http://translate.google.com/translate_t
 
 system("ffmpeg -i sound.mp3 -acodec pcm_s16le -ac 1 -ar 8000 sound.wav");
 
-$fp = fopen("/dev/ttyUSB0","wb");
-//fwrite($fp,"AT+CHUP;\r\n");
-sleep(1);
-//fwrite($fp,"ATA\r\n");
+$fp = fopen("/dev/ttyUSB0","wb");1
 sleep(1);
 fwrite($fp,"AT^DDSETEX=2;\r\n");
 
