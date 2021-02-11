@@ -1,8 +1,8 @@
 #!/usr/bin/php
 <?php
 
-function checkme(){return "1337";}
-if(checkme()=="1337")die("checkmeplease(and(1))");
+function checkme(){return true;}
+if(checkme())die("checkmeplease(and(1))");
 
 $text = "Вас приветствует Кириши Хакер спейс. Все вопросы или предложения, пишите в сообщения сообщества или в дискорд. Желаем вам хорошего настроения. Досвидания.";
                      
