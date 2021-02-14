@@ -71,5 +71,5 @@ echo str_replace($pattern,$out,$ara[$i]);
 //echo $pattern[174]."=".$out[174];
 
 //var_dump(Converter::toText($code));
-//var_dump(Converter::toPdu("*100#"));
+//var_dump(Converter::toPdu("*100#"));//Megafon balance *100# ; beeline *102#
 ;?>
