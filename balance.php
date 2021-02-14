@@ -1,7 +1,8 @@
 <?php
 error_reporting(0);
-require 'Converter.php';
-use Pdu\Converter;
+
+//require 'Converter.php'; 
+//use Pdu\Converter;
 
 $cmd = 'echo -e "AT+CUSD=1,\"AA180C3602\"\r\n">/dev/ttyUSB0|head -n6 /dev/ttyUSB0';
 
