@@ -4,7 +4,7 @@ error_reporting(0);
 //require 'Converter.php'; 
 //use Pdu\Converter;
 
-$cmd = 'echo -e "AT+CUSD=1,\"AA180C3602\"\r\n">/dev/ttyUSB0|head -n6 /dev/ttyUSB0';
+$cmd = 'echo -e "AT+CUSD=1,\"AA180C3602\"\r\n">/dev/ttyUSB0|head -n6 /dev/ttyUSB0';// AA180C3602 --> *100# в PDU формате
 
 function geter($cmd){
 ob_start();
