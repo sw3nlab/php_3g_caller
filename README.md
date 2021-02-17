@@ -8,7 +8,7 @@
 ![image](https://github.com/sw3nlab/php_3g_caller/blob/master/unnamed.jpg)
 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=P0o_nLUiKkI)
+[![Watch the video](https://github.com/sw3nlab/php_3g_caller/blob/master/bg.png)](https://www.youtube.com/watch?v=P0o_nLUiKkI)
 
 ## ПредНастройка 
 проверка портов usb 3G модема и конфигурирование
