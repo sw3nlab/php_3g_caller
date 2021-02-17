@@ -7,9 +7,6 @@
 
 ![image](https://github.com/sw3nlab/php_3g_caller/blob/master/unnamed.jpg)
 
-
-[![Watch the video](https://github.com/sw3nlab/php_3g_caller/blob/master/bg.png)](https://www.youtube.com/watch?v=P0o_nLUiKkI)
-
 ## ПредНастройка 
 проверка портов usb 3G модема и конфигурирование
 ```php
@@ -85,3 +82,5 @@ sw3nlab@nettop:~$ screen -q
 sw3nlab@nettop:~$ ./start.sh
 ```
 
+## Пример работы:
+[![Watch the video](https://github.com/sw3nlab/php_3g_caller/blob/master/bg.png)](https://www.youtube.com/watch?v=P0o_nLUiKkI)
